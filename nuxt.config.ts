@@ -21,4 +21,8 @@ export default defineNuxtConfig({
     langDir: "src/languages",
     defaultLocale: "en",
   },
+
+  typescript: {
+    shim: false,
+  },
 });
